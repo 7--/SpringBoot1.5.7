@@ -8,7 +8,7 @@ import org.springframework.boot.web.SpringBootServletInitializer;
 @Configuration
 @ComponentScan
 @EnableAutoConfiguration
-public class Application extends SpringBootServletInitializer  {
+public class Application  {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
